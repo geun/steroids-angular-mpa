@@ -45,13 +45,14 @@ steroids.config.statusBar.enabled = true
 steroids.config.statusBar.style = "default"
 
 # -- File Watcher --
-# steroids.config.watch.exclude = ["www/my_excluded_file.js", "www/my_excluded_dir"]
+#steroids.config.watch.exclude = ["www/my_excluded_file.js", "www/my_excluded_dir"]
+steroids.config.watch.exclude = ["app/views"]
 
 # -- Pre- and Post-Make hooks --
 # steroids.config.hooks.preMake.cmd = "echo"
 # steroids.config.hooks.preMake.args = ["running yeoman"]
-# steroids.config.hooks.postMake.cmd = "echo"
-# steroids.config.hooks.postMake.args = ["cleaning up files"]
+#steroids.config.hooks.postMake.cmd = "haml-coffee"
+#steroids.config.hooks.postMake.args = ["--input","/dist"]
 
 # -- Default Editor --
 # steroids.config.editor.cmd = "subl"
